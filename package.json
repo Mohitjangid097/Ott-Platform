@@ -18,9 +18,9 @@
   "homepage": "https://github.com/Mohitjangid097/Ott-Platform",
   "main": "./dist/server.generated.js",
   "scripts": {
-    "dev": "nodemon",
+    "development": "nodemon",
     "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
-    "start": "node"
+    "start": "nodemon"
   },
   "engines": {
     "node": "13.12.0",
